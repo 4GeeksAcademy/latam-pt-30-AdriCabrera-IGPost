@@ -1,0 +1,64 @@
+body {
+    background: black;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+div {
+    box-sizing: border-box;
+}
+.post {
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+body div {
+    width: 600px;
+    margin: auto;
+}
+
+.post-header {
+    display: flex;
+    position: relative;
+    padding: 20px 20px;
+}
+
+.top-left {
+    position: absolute;
+    left: 20px;
+    bottom: 30px;
+}
+
+.center {
+    position: relative;
+    left: 35px;
+    bottom: 3px;
+}
+
+.top-right {
+    position: absolute;
+    right: -580px;
+    bottom: 30px;
+}
+
+.post-icons {
+    display: inline-block;
+    position: relative;
+    padding: 20px 10px;
+}
+
+.left {
+    position: absolute;
+    left: 10px;
+}
+
+.right {
+    position: absolute;
+    right: -550px;
+}
+
+div p {
+    padding: 0px 10px 20px 10px;
+    text-align: justify;
+}
